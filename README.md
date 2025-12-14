@@ -90,10 +90,15 @@ username_filename.enc
 ## Project Structure
 
 ├── secure_file_auth.ipynb # Main implementation
+
 ├── users_face.pkl # Stores usernames and face encodings
+
 ├── keys_face/ # Stores user-specific encryption keys
+
 │ └── username.key
+
 ├── encrypted_files/
+
 │ └── username_filename.enc
 
 ---
